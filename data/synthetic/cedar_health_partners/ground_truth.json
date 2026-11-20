@@ -1,0 +1,148 @@
+{
+  "client": "Cedar Health Partners",
+  "plan": "Harbor PPO 1000",
+  "effective_date": "2027-01-01",
+  "waiting_period_days": 90,
+  "census_columns": [
+    "Member ID",
+    "Given Name",
+    "Surname",
+    "Tax ID",
+    "Birth Date",
+    "Hire Dt",
+    "Scheduled Hours",
+    "Comp",
+    "E-mail Address",
+    "Member Type"
+  ],
+  "planted_errors": [
+    {
+      "code": "MISSING_SSN",
+      "employee_id": "CE1034"
+    },
+    {
+      "code": "MISSING_SSN",
+      "employee_id": "CE1142"
+    },
+    {
+      "code": "MISSING_SSN",
+      "employee_id": "CE1109"
+    },
+    {
+      "code": "MISSING_SSN",
+      "employee_id": "CE1187"
+    },
+    {
+      "code": "MISSING_SSN",
+      "employee_id": "CE1185"
+    },
+    {
+      "code": "INVALID_SSN",
+      "employee_id": "CE1115"
+    },
+    {
+      "code": "INVALID_SSN",
+      "employee_id": "CE1175"
+    },
+    {
+      "code": "INVALID_SSN",
+      "employee_id": "CE1013"
+    },
+    {
+      "code": "INVALID_SSN",
+      "employee_id": "CE1173"
+    },
+    {
+      "code": "INVALID_SSN",
+      "employee_id": "CE1155"
+    },
+    {
+      "code": "MISSING_DOB",
+      "employee_id": "CE1001"
+    },
+    {
+      "code": "MISSING_DOB",
+      "employee_id": "CE1065"
+    },
+    {
+      "code": "DEPENDENT_OVER_AGE",
+      "employee_id": "CE1096"
+    },
+    {
+      "code": "DEPENDENT_OVER_AGE",
+      "employee_id": "CE1194"
+    },
+    {
+      "code": "DEPENDENT_OVER_AGE",
+      "employee_id": "CE1040"
+    },
+    {
+      "code": "DEPENDENT_OVER_AGE",
+      "employee_id": "CE1101"
+    },
+    {
+      "code": "DEPENDENT_OVER_AGE",
+      "employee_id": "CE1039"
+    },
+    {
+      "code": "FUTURE_HIRE_DATE",
+      "employee_id": "CE1114"
+    },
+    {
+      "code": "FUTURE_HIRE_DATE",
+      "employee_id": "CE1083"
+    },
+    {
+      "code": "INVALID_EMAIL",
+      "employee_id": "CE1145"
+    },
+    {
+      "code": "INVALID_EMAIL",
+      "employee_id": "CE1008"
+    },
+    {
+      "code": "SALARY_MISMATCH",
+      "employee_id": "CE1179"
+    },
+    {
+      "code": "SALARY_MISMATCH",
+      "employee_id": "CE1077"
+    },
+    {
+      "code": "SALARY_MISMATCH",
+      "employee_id": "CE1137"
+    },
+    {
+      "code": "SALARY_MISMATCH",
+      "employee_id": "CE1148"
+    },
+    {
+      "code": "SALARY_MISMATCH",
+      "employee_id": "CE1195"
+    },
+    {
+      "code": "SALARY_MISMATCH",
+      "employee_id": "CE1149"
+    },
+    {
+      "code": "NOT_IN_PAYROLL",
+      "employee_id": "CE1174"
+    },
+    {
+      "code": "NOT_IN_PAYROLL",
+      "employee_id": "CE1046"
+    },
+    {
+      "code": "NOT_IN_CENSUS",
+      "employee_id": "CE9000"
+    },
+    {
+      "code": "NOT_IN_CENSUS",
+      "employee_id": "CE9001"
+    },
+    {
+      "code": "DUPLICATE_EMPLOYEE",
+      "employee_id": "CE1178"
+    }
+  ]
+}

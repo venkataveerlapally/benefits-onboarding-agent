@@ -1,0 +1,64 @@
+{
+  "client": "Northwind Bakery",
+  "plan": "Evergreen PPO 1500",
+  "effective_date": "2027-01-01",
+  "waiting_period_days": 30,
+  "census_columns": [
+    "Emp ID",
+    "First Name",
+    "Last Name",
+    "SSN",
+    "DOB",
+    "Date of Hire",
+    "Hrs/Wk",
+    "Annual Salary",
+    "Email",
+    "Relationship"
+  ],
+  "planted_errors": [
+    {
+      "code": "MISSING_SSN",
+      "employee_id": "NO1008"
+    },
+    {
+      "code": "INVALID_SSN",
+      "employee_id": "NO1007"
+    },
+    {
+      "code": "MISSING_DOB",
+      "employee_id": "NO1005"
+    },
+    {
+      "code": "DEPENDENT_OVER_AGE",
+      "employee_id": "NO1001"
+    },
+    {
+      "code": "FUTURE_HIRE_DATE",
+      "employee_id": "NO1002"
+    },
+    {
+      "code": "INVALID_EMAIL",
+      "employee_id": "NO1025"
+    },
+    {
+      "code": "SALARY_MISMATCH",
+      "employee_id": "NO1016"
+    },
+    {
+      "code": "SALARY_MISMATCH",
+      "employee_id": "NO1003"
+    },
+    {
+      "code": "NOT_IN_PAYROLL",
+      "employee_id": "NO1015"
+    },
+    {
+      "code": "NOT_IN_CENSUS",
+      "employee_id": "NO9000"
+    },
+    {
+      "code": "DUPLICATE_EMPLOYEE",
+      "employee_id": "NO1014"
+    }
+  ]
+}

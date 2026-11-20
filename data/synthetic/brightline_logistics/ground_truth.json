@@ -1,0 +1,80 @@
+{
+  "client": "Brightline Logistics",
+  "plan": "Summit HMO 2500",
+  "effective_date": "2027-01-01",
+  "waiting_period_days": 60,
+  "census_columns": [
+    "employee_number",
+    "fname",
+    "lname",
+    "social_security",
+    "birth_date",
+    "start_date",
+    "weekly_hours",
+    "base_pay",
+    "work_email",
+    "rel_type"
+  ],
+  "planted_errors": [
+    {
+      "code": "MISSING_SSN",
+      "employee_id": "BR1065"
+    },
+    {
+      "code": "MISSING_SSN",
+      "employee_id": "BR1025"
+    },
+    {
+      "code": "INVALID_SSN",
+      "employee_id": "BR1055"
+    },
+    {
+      "code": "INVALID_SSN",
+      "employee_id": "BR1030"
+    },
+    {
+      "code": "MISSING_DOB",
+      "employee_id": "BR1054"
+    },
+    {
+      "code": "DEPENDENT_OVER_AGE",
+      "employee_id": "BR1068"
+    },
+    {
+      "code": "DEPENDENT_OVER_AGE",
+      "employee_id": "BR1006"
+    },
+    {
+      "code": "FUTURE_HIRE_DATE",
+      "employee_id": "BR1013"
+    },
+    {
+      "code": "INVALID_EMAIL",
+      "employee_id": "BR1022"
+    },
+    {
+      "code": "SALARY_MISMATCH",
+      "employee_id": "BR1044"
+    },
+    {
+      "code": "SALARY_MISMATCH",
+      "employee_id": "BR1062"
+    },
+    {
+      "code": "SALARY_MISMATCH",
+      "employee_id": "BR1059"
+    },
+    {
+      "code": "NOT_IN_PAYROLL",
+      "employee_id": "BR1029"
+    },
+    {
+      "code": "NOT_IN_CENSUS",
+      "employee_id": "BR9000"
+    },
+    {
+      "code": "DUPLICATE_EMPLOYEE",
+      "employee_id": "BR1034"
+    }
+  ]
+}
