@@ -6,6 +6,17 @@ An AI-assisted pipeline that takes a new benefits client's messy files (**employ
 >
 > **100% free to run:** open-source libraries, plus a local open-source LLM via [Ollama](https://ollama.com). No API keys, no accounts, no paid services.
 
+## Screenshots
+
+**Issues found in a client's files**
+![Issues](screenshots/Issues.png)
+
+**AI-drafted follow-up email to the client**
+![Client email](screenshots/Client email.png)
+
+**Employee plan Q&A with citations and human handoff**
+![Plan Q&A](screenshots/Q&A.png)
+
 ---
 
 ## What it does
